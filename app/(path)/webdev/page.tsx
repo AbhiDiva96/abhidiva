@@ -4,9 +4,6 @@ import * as React from "react"
 
 
 import { Navbar } from "@/components/navbar"
-import { Swapper } from "@/components/swapper"
-import { TechStack } from "@/components/techStack"
-
 
 export default function Webdev() {
 
@@ -21,7 +18,7 @@ export default function Webdev() {
         
            <div className="flex justify-center p-9 ">
             <div className="text-4xl md:text-6xl font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 py-8">
-              Let's Get View of my project
+              Lets Get View of my project
             </div>
             </div>
 
