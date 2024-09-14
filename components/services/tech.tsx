@@ -7,6 +7,9 @@ import { Techno } from "@/lib/utility/atoms"
 export const Tech = () => {
     return  <div>
 
+      <span className="mx-auto mb-9 block w-fit bg-gradient-to-br from-zinc-200 to-zinc-500 bg-clip-text text-center text-lg text-transparent">
+                Technology I Used To <b> Build</b>  Product
+            </span>
         <div className="w-full h-full px-[4rem] md:px-[10rem] ">
              <div className="border border-zinc-600 p-4  bg-zinc-800 rounded">
              <div className="grid grid-cols-1 sm:grid-cols-4">
