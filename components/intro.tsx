@@ -16,7 +16,7 @@ export const Intro = () => {
           <div className="flex justify-center font-bold pt-20  ">
             <button 
             onClick={downloadResume}
-            className="border border-zinc-300 p-2 w-36 rounded-[15px] ">
+            className="border border-slate-200 bg-slate-600  p-2 w-36 rounded-[15px] ">
               Profile 
               <span className=' pl-2'>
               <LaunchIcon/>

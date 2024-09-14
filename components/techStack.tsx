@@ -9,7 +9,7 @@ export const TechStack = () => {
   return (
     <div>
       <div className="relative mx-auto max-w-7xl overflow-hidden py-4">
-        <div className="flex overflow-hidden opacity-80">
+        <div className="flex overflow-hidden opacity-90">
           <div className="flex gap-2 px-4">
 
             <div className="animate-scroll flex w-[calc(250px * 20)] pl-8  ">
