@@ -10,19 +10,15 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 import { useRouter } from 'next/navigation'
-
+import { downloadResume } from '@/lib/utility/atoms'
 
 export const Navbar = () => {
 
-  const router = useRouter();
-const docLink = 'https://drive.google.com/file/d/1hII7ZOM_EB8TNQWqZ5c2_Lk3graViFbd/view?usp=sharing';
-
-  const downloadResume = () => {
-       window.open(docLink, '_blank')
-  }
+    const router = useRouter();
+    
   return (
-    <div>
-      <div className="flex justify-between backdrop-blur-sm">
+    <div >
+      <div className=" flex fixed top-0 left-0 w-full z-50 justify-between backdrop-blur-sm">
 
         {/* Logo Section */}
         <div className=' flex justify-center pl-8'>
@@ -34,8 +30,8 @@ const docLink = 'https://drive.google.com/file/d/1hII7ZOM_EB8TNQWqZ5c2_Lk3graViF
         </div>
 
         {/* Middle Section (Hidden on Mobile) */}
-        <div className="hidden md:flex pt-2"> {/* 'hidden' on mobile, 'flex' on medium screens and above */}
-          <div className="flex justify-center rounded border-slate-600 text-md p-2">
+        <div className="hidden md:flex pt-6"> {/* 'hidden' on mobile, 'flex' on medium screens and above */}
+          <div className="flex justify-center rounded border-slate-600 text-md ">
             <div className='flex justify-center border border-zinc-700 rounded gap-4 px-6'>
               <button 
                 className='cursor-pointer'

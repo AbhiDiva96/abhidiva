@@ -1,4 +1,8 @@
 
+const docLink = 'https://drive.google.com/file/d/1hII7ZOM_EB8TNQWqZ5c2_Lk3graViFbd/view?usp=sharing';
+export const downloadResume = () => {
+     window.open(docLink, '_blank')
+}
 
 interface TechBook {
     imageUrl: string,
