@@ -25,9 +25,9 @@ const docLink = 'https://drive.google.com/file/d/1hII7ZOM_EB8TNQWqZ5c2_Lk3graViF
       <div className="flex justify-between backdrop-blur-sm">
 
         {/* Logo Section */}
-        <div className='pl-8'>
+        <div className=' flex justify-center pl-8'>
           <Link href={"/"}>
-            <div className="text-2xl md:text-4xl font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 py-2">
+            <div className="flex justify-center text-2xl md:text-4xl font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 pt-5">
               AbhiDiva
             </div>
           </Link>
