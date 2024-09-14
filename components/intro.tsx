@@ -8,17 +8,17 @@ export const Intro = () => {
 
  return <div>
     
- <div className="flex justify-center py-20">
-    <div className="py-20">
-                <div className=" text-3xl md:text-6xl p-10">
-                   WelCome to The Profile of Software Developer
+ <div className="flex justify-center  py-20">
+    <div className="py-20 ">
+                <div className="text-center text-3xl md:text-6xl px-10">
+                   WelCome to The Profile of Full-Stack <b>Software</b> Developer
                   </div>
-          <div className="flex justify-center font-bold ">
+          <div className="flex justify-center font-bold pt-20  ">
             <button 
             onClick={downloadResume}
-            className="border border-zinc-300 p-2 w-48 rounded-[15px] ">
+            className="border border-zinc-300 p-2 w-36 rounded-[15px] ">
               Profile 
-              <span>
+              <span className=' pl-2'>
               <LaunchIcon/>
               </span>
             </button>
