@@ -17,7 +17,7 @@ export const Projects = () => {
         </div>
 
         <div className="flex justify-center backdrop-sepia ">
-            <div className="flex  px-10">
+            <div className="flex ">
                     
                 <div className="flex grid grid-cols-1 md:grid-cols-3 gap-4">
 
