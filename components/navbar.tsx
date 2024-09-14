@@ -32,7 +32,7 @@ export const Navbar = () => {
         {/* Middle Section (Hidden on Mobile) */}
         <div className="hidden md:flex pt-6"> {/* 'hidden' on mobile, 'flex' on medium screens and above */}
           <div className="flex justify-center rounded border-slate-600 text-md ">
-            <div className='flex justify-center border border-zinc-700 rounded gap-4 px-6'>
+            <div className='flex justify-center text-zinc-300 border border-zinc-700 rounded gap-4 px-6'>
               <button 
                 className='cursor-pointer'
                 onClick={() => router.push('/dsa')}>
