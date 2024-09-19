@@ -2,7 +2,6 @@
 import { Navbar } from "@/components/navbar"
 
 import { Carousel } from "@/components/services/carousal"
-import ManualDropdown from "@/components/services/dropdown"
 
 
 export default function Dsa() {
@@ -17,7 +16,7 @@ export default function Dsa() {
         <Navbar/>
         
  
-              <div className=" pt-32">
+              <div className=" pt-20 md:pt-32">
                   <Carousel />   
               </div>
           

@@ -113,14 +113,14 @@ export const Carousel = () => {
               <Image
                 src={streak.images}
                 alt={streak.name}
-                width={1200}
-                height={500}
+                width={1000}
+                height={400}
                 className="border border-zinc-500 rounded"
                 priority={index === currentIndex} // Priority for current image
                 placeholder="empty" // Placeholder for loading images
               />
-              <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity duration-300">
-                <p className="text-white text-lg font-semibold">{streak.name}</p>
+              <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity duration-300 ">
+                <p className="text-white text-md md:text-lg font-semibold">{streak.name}</p>
                 <button onClick={()=> window.open(streak.visite, '_blank')}>
                     <OpenInNewIcon />
                 </button>
@@ -131,7 +131,7 @@ export const Carousel = () => {
       </div>
 
       {/* Dots Indicators */}
-      <div className="absolute left-0 right-0 bottom-4 flex justify-center space-x-2">
+      <div className="absolute left-0 right-0 bottom-1 flex justify-center space-x-2">
         {streaks.map((_, index) => (
           <span
             key={index}
