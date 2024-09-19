@@ -16,6 +16,25 @@ interface Projects {
     details: string;
   }
 
+  interface streakType{
+      images: string;
+      name: string;
+       visite: string;
+  }
+  
+ export  const streaks: streakType[] = [
+    {
+      images: '/images/leetcodestreak.png',
+      name: 'Leetcode Streak',
+      visite: 'https://leetcode.com/u/1_Abhi/'
+    },
+    {
+      images: '/images/streakgfg.png',
+      name: 'GeeksForGeeks Streak',
+      visite: 'https://www.geeksforgeeks.org/user/abhishekvisuse/'
+    },
+  ];
+
 
    export  const Techno : TechBook[] = [
             {

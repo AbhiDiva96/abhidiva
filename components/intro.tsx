@@ -1,7 +1,7 @@
 'use client'
 
 import LaunchIcon from '@mui/icons-material/Launch';
-import { downloadResume } from '@/lib/utility/atoms';
+import { downloadResume } from '@/components/utility/atoms';
 
 export const Intro = () => {
 

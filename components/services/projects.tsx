@@ -3,7 +3,7 @@
 import LanguageIcon from '@mui/icons-material/Language';
 import GitHubIcon from '@mui/icons-material/GitHub';
 
-import { ProjectData } from '@/lib/utility/atoms';
+import { ProjectData } from '@/components/utility/atoms';
 import { useRouter } from 'next/navigation';
 
 export const Projects = () => {
@@ -45,3 +45,4 @@ export const Projects = () => {
         </div>
     );
 };
+

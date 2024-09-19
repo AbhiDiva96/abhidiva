@@ -2,7 +2,7 @@
 
 import Image from "next/image"
 // import {Techno} from '@/lib/utility/atoms'
-import { Techno } from "@/lib/utility/atoms"
+import { Techno } from "@/components/utility/atoms"
 
 export const Tech = () => {
     return  <div>

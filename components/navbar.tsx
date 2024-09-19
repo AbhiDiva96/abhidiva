@@ -1,16 +1,10 @@
 'use client'
 
 import Link from 'next/link'
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
+
 import { useRouter } from 'next/navigation'
-import { downloadResume } from '@/lib/utility/atoms'
+import { downloadResume } from '@/components/utility/atoms'
+import ManualDropdown from './services/dropdown'
 
 export const Navbar = () => {
 
@@ -65,38 +59,11 @@ export const Navbar = () => {
         </div>
 
         {/* Resume and Dropdown Section */}
-        <div className='flex justify-center'>
+        <div className='flex justify-center '>
 
           {/* Dropdown Menu (Visible on Mobile) */}
           <div className='flex pr-4 md:hidden'> {/* 'md:hidden' ensures it's visible only on small screens */}
-            <div className='flex justify-center pt-4'>
-              <DropdownMenu>
-                <DropdownMenuTrigger className='flex justify-center border-2 p-2 border-zinc-900 text-md font-bold rounded'>Open</DropdownMenuTrigger>
-                
-                <DropdownMenuContent>
-                  <DropdownMenuLabel>Visit</DropdownMenuLabel>
-                  <DropdownMenuSeparator />
-                  <Link href={'/dsa'}>
-                    <DropdownMenuItem>Data Structure</DropdownMenuItem>
-                  </Link>
-                  <Link href={'/webdev'}>
-                    <DropdownMenuItem>Web Dev</DropdownMenuItem>
-                  </Link>
-                  <Link href={'/posts'}>
-                    <DropdownMenuItem>Blogs</DropdownMenuItem>
-                  </Link>
-                    <button onClick={downloadResume}>
-                    <DropdownMenuItem>Resume</DropdownMenuItem>
-
-                    </button>
-                
-                  <Link href={'/hireme'}>
-                    <DropdownMenuItem>Hire Me</DropdownMenuItem>
-                  </Link>
-                  <DropdownMenuItem>Buy a coffee</DropdownMenuItem>
-                </DropdownMenuContent>
-              </DropdownMenu>
-            </div>
+          <ManualDropdown/>
           </div>
         </div>
       </div>
