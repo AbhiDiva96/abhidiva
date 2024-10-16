@@ -2,13 +2,14 @@
 
 import LaunchIcon from '@mui/icons-material/Launch';
 import { downloadResume } from '@/components/utility/atoms';
+import { Links } from './ui/links';
 
 export const Intro = () => {
 
 
  return <div>
     
- <div className="flex justify-center  py-20">
+ <div className="flex justify-center  py-12">
     <div className="py-20 ">
                 <div className="text-center text-3xl md:text-6xl px-10">
                    WelCome to The Profile of Full-Stack <b>Software</b> Developer
@@ -22,6 +23,10 @@ export const Intro = () => {
               <LaunchIcon/>
               </span>
             </button>
+           </div>
+
+           <div className='flex justify-center pt-20'>
+            <Links/>
            </div>
          </div>
           </div>
