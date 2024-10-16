@@ -25,7 +25,6 @@ export const Links = () => {
          icon:<GitHubIcon fontSize='large'/>, 
          className:"bg-slate-800/20"
         },
-        
         {name: "LinkedIn" , 
          url:"https://www.linkedin.com/in/abhishek-kumar-062231198/", 
           icon:<LinkedInIcon fontSize='large'/>,  
@@ -46,12 +45,12 @@ export const Links = () => {
    },[])
 
     return <div>
-        <div className="flex gap-[1.7rem]">
+        <div className="flex gap-7 pr-2">
            
                 {links.map((link) => (
                      <div key={link.name}
                      onClick={() => handleClick(link.url, link.name)}
-                        className={`flex justify-center border border-slate-400/20 bg-zinc-800/30 rounded-full p-2 cursor-pointer  ${link.className} `} >
+                        className={`flex justify-center border border-slate-400/20 rounded-full p-2 cursor-pointer  ${link.className} `} >
                         {link.icon} 
                      </div>
                 ))}
