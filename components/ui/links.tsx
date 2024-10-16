@@ -30,7 +30,7 @@ export const Links = () => {
          url:"https://www.linkedin.com/in/abhishek-kumar-062231198/", 
           icon:<LinkedInIcon fontSize='large'/>,  
           className:"bg-blue-700/20"
-        },
+        }
 
    ]
 
@@ -46,7 +46,7 @@ export const Links = () => {
    },[])
 
     return <div>
-        <div className="flex gap-6">
+        <div className="flex gap-[1.7rem]">
            
                 {links.map((link) => (
                      <div key={link.name}
