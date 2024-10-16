@@ -85,7 +85,7 @@ interface Projects {
         {
          title: "Abhidiva",
          imageUrl: "images/abhi.png",
-         link: 'https://75per.vercel.app/',
+         link: 'https://abhidiva.vercel.app',
          githubUrl: "https://github.com/AbhiDiva96/abhidiva",
          details: "Abhidiva is a personal Portfolio to show case my details"
         },
