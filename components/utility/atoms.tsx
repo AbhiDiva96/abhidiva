@@ -1,5 +1,5 @@
 
-const docLink = 'https://drive.google.com/file/d/10XQPV5Bhs8ici0FICQ1kEtTEPrF6KGqj/view';
+const docLink = 'https://drive.google.com/file/d/1K0EYE0ZCZUmLaXQ4Um-kAmptnSJ-bJGz/view';
 export const downloadResume = () => {
      window.open(docLink, '_blank')
 }
