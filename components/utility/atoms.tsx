@@ -26,7 +26,7 @@ interface Projects {
     {
       images: '/images/leetcodestreak.png',
       name: 'Leetcode Streak',
-      visite: 'https://leetcode.com/u/1_Abhi/'
+      visite: 'https://leetcode.com/u/abhi_diva/'
     },
     {
       images: '/images/streakgfg.png',
